@@ -1,0 +1,102 @@
+
+.wrapper {
+    display: none;
+}
+@media screen
+and (min-width : 240px)
+and (max-width : 360px) {
+
+	.wrapper, .header, .mca{max-width:100%;margin:0 auto;}
+	.add1{width:300px !important;min-height:250px;margin:0 auto; }
+	.mca h1{font-size:18px;}
+	.mca_box2{width:85% !important;margin:0 auto;}
+	.mca_box2 a{color:#fff;font-family: "Trebuchet MS";font-size:16px !important;text-decoration:none; display:block;}
+}
+
+@media screen
+and (min-width : 361px)
+and (max-width : 600px) {
+	.add1{width:300px;min-height:250px;margin:0 auto; }
+	.mca_box2{width:85% !important;margin:0 auto;}
+	.mca_box2 a{color:#fff;font-family: "Trebuchet MS";font-size:16px !important;text-decoration:none; display:block;}
+
+}
+
+.wrapper.page-static{display:block}
+.footer{background:#4a78a9;background:linear-gradient(to bottom,#4a78a9,#82a6ca);color:#fff;text-align:center;padding:14px 10px 12px;margin-top:20px}
+.footer p{background:none;padding:0;margin:0;color:#fff}
+.footer .footlinks{margin:0 0 6px;font-family:"Trebuchet MS",Arial,sans-serif;font-size:14px}
+.footer .footlinks a{color:#fff;text-decoration:none;margin:0 9px;white-space:nowrap;display:inline-block;padding:4px 0}
+.footer .copy{margin:0;font-family:"Trebuchet MS",Arial,sans-serif;font-size:12px;color:#e6eef7}
+.page-text{text-align:left;max-width:720px;margin:0 auto;padding:0 16px 8px;font-family:"Trebuchet MS",Arial,sans-serif;color:#222;line-height:1.5}
+.page-text h1{font-size:22px;color:#3b6ea3;margin:6px 0 4px}
+.page-text h2{font-size:17px;color:#3b6ea3;margin:20px 0 6px}
+.page-text p,.page-text li,.page-text ul,.page-text h1,.page-text h2{background:none;color:#222;padding:0;border:0;box-shadow:none;text-shadow:none;width:auto;height:auto;line-height:1.5}
+.page-text p,.page-text li{font-size:15px;margin:0 0 12px}
+.page-text ul{padding-left:20px;margin:0 0 12px}
+.page-text h1,.page-text h2{color:#3b6ea3}
+.page-text a{color:#3b6ea3}
+.page-text code{font-size:13px}
+.page-text .updated{font-size:13px;color:#666}
+
+.sc-devices{display:none;text-align:center;padding:10px 10px 1px;font-family:"Trebuchet MS",Arial,sans-serif}
+html.sc-browser .sc-devices{display:block}
+.sc-devices-installed{display:none;font-size:14px;color:#3b6ea3;padding:4px 0 12px}
+html.sc-installed .sc-devices-installed{display:block}
+html.sc-installed .sc-devices-open{display:none}
+.sc-devices-title{font-size:19px;font-weight:700;color:#3b6ea3;margin:0 0 4px}
+.sc-devices-lead{font-size:14px;color:#555;line-height:1.4;max-width:320px;margin:0 auto 12px}
+.sc-devices-row{margin:0 0 6px}
+.sc-pill{display:inline-block;margin:0 4px 10px;padding:9px 16px;border:2px solid #4a78a9;border-radius:999px;color:#3b6ea3;font-size:15px;font-weight:700;text-decoration:none;white-space:nowrap;background:#fff}
+.sc-pill:active{background:#eaf1f8}
+.sc-onetap{text-align:center;margin:0 0 18px}
+html.sc-installed .sc-onetap{display:none}
+.sc-guide a.sc-install{color:#fff;text-decoration:none}
+.page-text .sc-onetap-note{font-size:13px;color:#555;margin:8px 0 0}
+.page-text .sc-installed-note{display:none;color:#3b6ea3;font-weight:700}
+html.sc-installed .sc-installed-note{display:block}
+.sc-install{display:inline-block;background:#4a78a9;color:#fff;border:0;border-radius:8px;padding:11px 26px;font-family:"Trebuchet MS",Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.2;cursor:pointer;-webkit-appearance:none;appearance:none}
+.sc-install:active{background:#3b6ea3}
+
+.sc-skel-row{height:45px;margin:8px 0;border-radius:.3125em;background:#e4ebf3;background-image:linear-gradient(100deg,#e4ebf3 30%,#f5f8fb 50%,#e4ebf3 70%);background-size:200% 100%;animation:sc-shimmer 1.4s ease-in-out infinite}
+.sc-skeleton .mca_box2:nth-child(2) .sc-skel-row{animation-delay:.08s}
+.sc-skeleton .mca_box2:nth-child(3) .sc-skel-row{animation-delay:.16s}
+.sc-skeleton .mca_box2:nth-child(4) .sc-skel-row{animation-delay:.24s}
+.sc-skeleton .mca_box2:nth-child(5) .sc-skel-row{animation-delay:.32s}
+.sc-skeleton .mca_box2:nth-child(6) .sc-skel-row{animation-delay:.4s}
+@keyframes sc-shimmer{from{background-position:150% 0}to{background-position:-50% 0}}
+@media (prefers-reduced-motion:reduce){.sc-skel-row{animation:none}}
+
+.mca p.sc-quality{background:none;color:#333;margin:0;padding:8px 10px 0;font-family:"Trebuchet MS",Arial,sans-serif;font-size:14px;line-height:1.4}
+.mca p.sc-quality a{color:#3b6ea3;text-decoration:underline}
+
+.sc-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:100000;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;padding:20px}
+.sc-card{background:#fff;border-radius:12px;max-width:320px;width:100%;padding:22px 18px 18px;text-align:center;font-family:"Trebuchet MS",Arial,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25);box-sizing:border-box}
+.sc-card-title{font-size:19px;font-weight:700;color:#3b6ea3;margin:0 0 10px}
+.sc-card-text{font-size:15px;color:#333;line-height:1.45;margin:0 0 12px}
+.sc-card-contact{font-size:13px;color:#555;line-height:1.45;margin:0 0 16px}
+.sc-card-contact a{color:#3b6ea3;display:inline-block}
+.sc-card-btn{display:block;width:100%;background:#4a78a9;color:#fff;border:0;border-radius:8px;padding:12px;font-family:inherit;font-size:16px;font-weight:700;cursor:pointer;-webkit-appearance:none;appearance:none}
+.sc-card-btn:active{background:#3b6ea3}
+
+.sc-player-msg{width:100%;min-height:190px;aspect-ratio:16/9;background:#101a26;color:#fff;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;text-align:center;padding:16px;box-sizing:border-box;font-family:"Trebuchet MS",Arial,sans-serif}
+.sc-player-msg-text{font-size:18px;font-weight:700}
+.sc-player-msg-detail{font-size:14px;color:#c9d6e3;margin-top:6px;max-width:300px}
+.sc-player-msg-note{font-size:12px;color:#8fa3b8;margin-top:10px}
+.sc-spinner{width:38px;height:38px;border:3px solid rgba(255,255,255,.25);border-top-color:#fff;border-radius:50%;margin:0 auto 14px;animation:sc-spin .9s linear infinite}
+@keyframes sc-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.sc-spinner{animation:none}}
+
+.mca .sc-intro{font-family:"Trebuchet MS",Arial,sans-serif;font-size:14px;color:#555;line-height:1.4;max-width:320px;margin:-6px auto 12px;padding:0 10px}
+
+.sc-guide .sc-kicker{font-size:13px;color:#3b6ea3;font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin:0 0 2px}
+.sc-step{display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;margin:18px 0 6px}
+.sc-step-n{-webkit-flex:0 0 auto;flex:0 0 auto;width:32px;height:32px;border-radius:50%;background:#4a78a9;color:#fff;font-weight:700;font-size:16px;line-height:32px;text-align:center;margin:0 12px 0 0}
+.sc-step-body{-webkit-flex:1 1 auto;flex:1 1 auto;min-width:0}
+.sc-guide .sc-step-body h2{margin:5px 0 6px}
+.sc-guide .sc-step-body p{margin:0 0 8px}
+.sc-shot{display:block;width:100%;max-width:320px;height:auto;border:1px solid #d8e0e8;border-radius:10px;margin:6px 0 10px}
+.sc-box{background:#eaf1f8;border:1px solid #c5d7ea;border-radius:8px;padding:10px 12px;font-size:14px;line-height:1.5;margin:12px 0}
+.sc-code{text-align:center;background:#101a26;color:#c9d6e3;border-radius:10px;padding:14px 10px 12px;margin:14px 0 18px;font-size:13px}
+.sc-code span{display:block;color:#fff;font-size:40px;font-weight:700;letter-spacing:.12em;line-height:1.2;margin-bottom:2px}
+.page-text .sc-others{margin-top:22px}
